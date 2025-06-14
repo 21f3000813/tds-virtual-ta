@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables (API keys)
+.env
+
+# VS Code settings
+.vscode/
+
+# Data files
+data/discourse/
+data/*.json
+
+# Embedding index
+embeddings/*.index
+embeddings/*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test outputs or temp files
+debug_page.html
